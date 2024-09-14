@@ -1,0 +1,104 @@
+/* Container for the entire section */
+#get-in-touch {
+  padding: 50px;
+  background-color: #2b2b2b; /* Dark background color for contrast */
+  color: white;
+  text-align: center;
+}
+
+/* Flexbox container to align contact details and form side by side */
+.get-in-touch-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* Style for the section title */
+#get-in-touch h2 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+/* Contact details container */
+.contact-details {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  flex: 1;
+}
+
+/* Style for links */
+.contact-details a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+/* Contact form container */
+.contact-form {
+  flex: 1;
+  background-color: #3c3c3c;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px; /* Set a maximum width for the form */
+}
+
+/* Style for form labels */
+.contact-form label {
+  display: block;
+  color: white;
+  margin-bottom: 5px; /* Space between label and input */
+  font-size: 1.1rem; /* Adjust label font size */
+}
+
+/* Style for form inputs */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 300px; /* Set a max width for the input fields */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #2b2b2b;
+  color: white;
+  margin: 0 auto; /* Center the input fields */
+}
+
+/* Style for the message textarea */
+.contact-form textarea {
+  height: 150px; /* Adjust the height of the message box */
+  resize: vertical; /* Allow the user to resize the textarea vertically if needed */
+}
+
+/* Style for the submit button */
+.contact-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: grey;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .get-in-touch-container {
+    flex-direction: column;
+  }
+
+  .contact-details,
+  .contact-form {
+    margin-right: 0;
+  }
+}

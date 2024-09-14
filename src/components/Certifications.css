@@ -1,0 +1,66 @@
+/* Container for the entire work education section */
+#Certification {
+    padding: 50px;
+    background-color: black; /* Dark background for the section */
+    text-align: center; /* Center-align the section title */
+  }
+  
+  /* Style for each education slide */
+  .certification-slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    /* Removed border-bottom */
+  }
+  
+  /* Center section containing title, company, and dates */
+  .certification-details {
+    display: flex;
+    flex: 1; /* Take remaining space */
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Center-align title, company, and dates */
+  .certification-text-center {
+    text-align: left;
+    flex: 1;
+  }
+  
+  .certification-text-center ul {
+    list-style-type: disc; /* Bullet points */
+    margin-left: 20px; /* Indent for the list */
+    color: white;
+  }
+  
+  /* Style for title, company, and dates */
+  .certification-text-center h3 {
+    margin: 0;
+    font-size: 1.5rem; /* Adjust font size */
+    color: white;
+  }
+  
+  .certification-text-center p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  /* Right section containing job description */
+  .certification-description {
+    flex: 1;
+    text-align: right; /* Right-align job description */
+  }
+  
+  .certification-description p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  #Certification h2 {
+    font-size: 2rem; /* Larger font size for the title */
+    color: white;
+  }
+  

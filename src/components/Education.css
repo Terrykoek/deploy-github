@@ -1,0 +1,80 @@
+/* Container for the entire work education section */
+#Education {
+  padding: 50px;
+  background-color: black; /* Dark background for the section */
+  text-align: center; /* Center-align the section title */
+}
+
+/* Style for each education slide */
+.education-slide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Style for images (logo) */
+.education-image {
+  border-radius: 30px;
+  width: 150px; /* Set a fixed width for the logo */
+  height: 150px; /* Set a fixed height for the logo */
+  object-fit: cover;
+  margin-right: 20px; /* Space between logo and details */
+}
+
+/* Center section containing title, company, and dates */
+.education-details {
+  display: flex;
+  flex: 1; /* Take remaining space */
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Center-align title, company, and dates */
+.education-text-center {
+  text-align: left;
+  flex: 1;
+}
+
+.education-text-center ul {
+  list-style-type: disc; /* Bullet points */
+  margin-left: 20px; /* Indent for the list */
+  color: white;
+}
+
+.education-text-center li {
+  margin-bottom: 10px; /* Space between each point */
+  font-size: 1rem;
+}
+
+/* Style for title, company, and dates */
+.education-text-center h3 {
+  margin: 0;
+  font-size: 1.5rem; /* Adjust font size */
+  color: white;
+}
+
+.education-text-center p {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* Right section containing job description */
+.education-description {
+  flex: 1;
+  text-align: right; /* Right-align job description */
+}
+
+.education-description p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: white;
+}
+
+#Education h2 {
+  font-size: 2rem; /* Larger font size for the title */
+  color: white;
+  margin-bottom: 40px;
+}
