@@ -26,8 +26,8 @@ const GetInTouch = () => {
       <div className="get-in-touch-container">
         <div className="contact-details">
           <p>Terry Koek</p>
-          <p><a href="mailto:terrykoekkaijun@gmail.com">terrykoekkaijun@gmail.com</a></p>
-          <p><a href="tel:+65 98286195">+65 98286195</a></p>
+          <p>terrykoekkaijun@gmail.com</p>
+          <p>+65 98286195</p>
           <p>Singapore</p>
             <a href="https://www.linkedin.com/in/terrykoek/" target="_blank" rel="noopener noreferrer" className="social-link">
               <i className="fa-brands fa-linkedin"></i>

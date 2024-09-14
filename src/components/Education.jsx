@@ -1,18 +1,22 @@
 import React from 'react';
 import './Education.css';
 
+// Import images
+import gaImage from '../assets/GA.jpeg'; // Update the path based on your file structure
+import ntuImage from '../assets/ntu.jpeg'; // Update the path based on your file structure
+
 const education = [
   {
     school: 'General Assembly',
     course: 'Software Engineering Immersive, Computer Science',
     dates: '2021',
-    image: '/GA.jpeg'
+    image: gaImage,
   },
   {
     school: 'Nanyang Technological University',
     course: 'Bachelor of Engineering - BE, Mechanical Engineering',
     dates: '2017',
-    image: '/ntu.jpeg'
+    image: ntuImage,
   },
 ];
 
@@ -20,13 +24,13 @@ const Education = () => {
   return (
     <section id="Education">
       <h2>Education</h2>
-      {education.map((education, index) => (
+      {education.map((edu, index) => (
         <div key={index} className="education-slide">
-          <img src={education.image} alt={education.school} className="education-image" />
+          <img src={edu.image} alt={edu.school} className="education-image" />
           <div className="education-text-center">
-            <h3>{education.school}</h3>
-            <h3>{education.course}</h3>
-            <p> {education.dates}</p>
+            <h3>{edu.school}</h3>
+            <h3>{edu.course}</h3>
+            <p>{edu.dates}</p>
           </div>
         </div>
       ))}

@@ -1,6 +1,12 @@
 import React from 'react';
 import './WorkExperience.css';
 
+// Import images
+import smartImage from '../assets/Smart.jpeg'; // Adjust the path if necessary
+import govImage from '../assets/gov.jpeg'; // Adjust the path if necessary
+import stImage from '../assets/ST.jpeg'; // Adjust the path if necessary
+import nlbImage from '../assets/NLB.jpeg'; // Adjust the path if necessary
+
 const experiences = [
   {
     title: 'Research Engineer (Full-Stack Developer)',
@@ -14,7 +20,7 @@ const experiences = [
       'Build clean, efficient, well-documented and secure code.',
       'Maintain quality by participating in code review and setting up and maintaining test frameworks.'
     ],
-    image: '/Smart.jpeg'
+    image: smartImage,
   },
   {
     title: 'Full-Stack Developer',
@@ -28,7 +34,7 @@ const experiences = [
       'Work with a range of technologies, and tackle a wide variety of challenges across the technical stack.',
       'Collaborate closely with other specialists within an agile and collaborative team environment, including: i. Advocating a positive team culture ii. Working with UX Designers to implement their designs into working software iii. Working with DevOps Engineers to manage builds and releases iv. Assisting Product/Delivery Managers in technical assessment of new feature requests or engagements.'
     ],    
-    image: '/gov.jpeg'
+    image: govImage,
   },
   {
     title: 'Software Engineer',
@@ -43,7 +49,7 @@ const experiences = [
       'Contribute to continuous improvement of software development best practices.',
       'Keeping up-to-date with industry trends and technology developments.'
     ],
-    image: '/ST.jpeg'
+    image: stImage,
   },
   {
     title: 'Assistant Manager',
@@ -54,7 +60,7 @@ const experiences = [
       'Raise staff awareness of procurement matters through the regular engagement of staff e.g. conduct briefings to staff on procurement policies and guidelines.',
       'Participate in projects to improve NLB’s procurement processes through automation, technology and analytics.'
     ],
-    image: '/NLB.jpeg'
+    image: nlbImage,
   },
 ];
 
@@ -68,7 +74,7 @@ const WorkExperience = () => {
           <div className="experience-text-center">
             <h3>{exp.title}</h3>
             <h3>{exp.company}</h3>
-            <p> {exp.dates}</p>
+            <p>{exp.dates}</p>
             {Array.isArray(exp.description) ? (
               <ul>
                 {exp.description.map((desc, i) => (
