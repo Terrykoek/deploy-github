@@ -21,9 +21,9 @@ const GetInTouch = () => {
   };
 
   return (
-    <section id="get-in-touch">
+    <section id="contact">
       <h2>Get in Touch With Me</h2>
-      <div className="get-in-touch-container">
+      <div className="contact-container">
         <div className="contact-details">
           <p>Terry Koek</p>
           <p>terrykoekkaijun@gmail.com</p>
@@ -60,11 +60,11 @@ const GetInTouch = () => {
               onChange={handleChange}
               required
             />
-            <label htmlFor="contact">Contact Number</label>
+            <label htmlFor="number">Contact Number</label>
             <input
               type="text"
-              id="contact"
-              name="contact"
+              id="number"
+              name="number"
               placeholder="Enter your contact number"
               value={formData.contact}
               onChange={handleChange}

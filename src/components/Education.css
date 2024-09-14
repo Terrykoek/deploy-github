@@ -45,19 +45,19 @@
 
 .education-text-center li {
   margin-bottom: 10px; /* Space between each point */
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
 
 /* Style for title, company, and dates */
 .education-text-center h3 {
   margin: 0;
-  font-size: 1.5rem; /* Adjust font size */
+  /* font-size: 1.5rem; Adjust font size */
   color: white;
 }
 
 .education-text-center p {
   margin: 5px 0;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   color: white;
 }
 
@@ -69,12 +69,12 @@
 
 .education-description p {
   margin: 0;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   color: white;
 }
 
 #Education h2 {
-  font-size: 2rem; /* Larger font size for the title */
+  /* font-size: 2.5rem; Larger font size for the title */
   color: white;
   margin-bottom: 40px;
 }

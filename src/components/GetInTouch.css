@@ -1,22 +1,26 @@
 /* General Styles */
-#get-in-touch {
-  padding: 2rem;
+#contact {
+  padding: 1.5rem; /* Reduced padding for a more compact look */
   background-color: black; /* Dark background color for contrast */
   color: white; /* Default text color to white */
 }
 
-.get-in-touch-container {
+#contact h2 {
+  /* font-size: 2rem; Slightly smaller heading */
+}
+
+.contact-container {
   display: flex;
   justify-content: center; /* Center content horizontally */
   align-items: flex-start; /* Align items to the top of the container */
-  max-width: 1200px; /* Limit the maximum width of the container */
+  max-width: 800px; /* Reduced max width for a more focused layout */
   margin: 0 auto; /* Center the container horizontally */
 }
 
 .contact-details,
 .contact-form {
   flex: 1; /* Allow both sections to grow equally */
-  max-width: 500px; /* Optional: limit the width of each section */
+  max-width: 400px; /* Optional: limit the width of each section */
 }
 
 .contact-details {
@@ -25,12 +29,13 @@
 
 .contact-details p {
   margin: 0.5rem 0;
+  /* font-size: 1.2rem; Slightly smaller font size for better readability */
 }
 
 .social-link {
   display: inline-block;
   margin: 0.5rem;
-  font-size: 1.5rem;
+  /* font-size: 1.8rem; Slightly smaller font size for social icons */
   color: #ffffff; /* Set icon color to white for visibility */
   text-decoration: none;
 }
@@ -46,7 +51,7 @@
 
 .contact-form h3 {
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  /* font-size: 1.4rem; Slightly smaller heading for the form */
   color: white;
 }
 
@@ -63,27 +68,35 @@
 
 .contact-form input,
 .contact-form textarea {
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  border: 1px solid #ddd;
+  margin-bottom: 0.75rem; /* Reduced margin for compactness */
+  padding: 0.75rem; /* Increased padding for better usability */
+  border: 1px solid #444; /* Darker border for a sleeker look */
   border-radius: 4px;
-  font-size: 1rem;
+  /* font-size: 1rem; Consistent font size */
   color: black; /* Text color inside inputs */
+  transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0073b1; /* Change border color on focus */
+  outline: none; /* Remove default outline */
 }
 
 .contact-form textarea {
   resize: vertical; /* Allow vertical resizing */
-  min-height: 150px; /* Default height for textarea */
+  min-height: 120px; /* Adjusted height for textarea */
 }
 
 .contact-form button {
-  background-color: whitesmoke; /* Button color */
-  color: black; /* Text color */
+  background-color: #0073b1; /* LinkedIn blue for button */
+  color: white; /* White text color for button */
   border: none;
   padding: 0.75rem;
   border-radius: 4px;
-  font-size: 1rem;
+  /* font-s//ize: 1rem; */
   cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
 }
 
 .contact-form button:hover {

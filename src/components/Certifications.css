@@ -37,13 +37,13 @@
   /* Style for title, company, and dates */
   .certification-text-center h3 {
     margin: 0;
-    font-size: 1.5rem; /* Adjust font size */
+    /* font-size: 1.5rem; Adjust font size */
     color: white;
   }
   
   .certification-text-center p {
     margin: 5px 0;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     color: white;
   }
   
@@ -55,12 +55,12 @@
   
   .certification-description p {
     margin: 0;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     color: white;
   }
   
   #Certification h2 {
-    font-size: 2rem; /* Larger font size for the title */
+    /* font-size: 2.5rem; Larger font size for the title */
     color: white;
   }
   

@@ -2,19 +2,18 @@
   display: flex;
   align-items: center; /* Center items vertically */
   justify-content: center; /* Center items horizontally */
-  padding: 50px;
+  /* padding: 50px; */
   background-color: #000; /* Black background */
   color: #fff; /* White font color */
   text-align: left;
   height: 100vh; /* Full height of the viewport */
   box-sizing: border-box; /* Ensure padding is included in the height calculation */
-  overflow: hidden; /* Hide any overflow for animation */
 }
 
 #about img {
   border-radius: 50%;
-  width: 400px; /* Increased width */
-  height: 400px; /* Increased height */
+  width: 300px; /* Increased width */
+  height: 300px; /* Increased height */
   object-fit: cover;
   margin-right: 20px; /* Space between image and text */
   animation: fadeIn 2s ease-out; /* Fade in effect for image */
@@ -28,7 +27,7 @@
 
 #about h2 {
   margin: 0;
-  font-size: 5rem; /* Increased font size */
+  font-size: 4rem; /* Increased font size */
   opacity: 0; /* Start with hidden text */
   transform: translateY(-50px); /* Start with text shifted up */
   animation: fadeInUp 1.5s ease-out forwards; /* Fade and slide up effect */
@@ -42,8 +41,8 @@
 }
 
 #about p {
-  margin: 0;
-  font-size: 1.2rem;
+  /* margin: 0; */
+  font-size: 1.0rem;
   max-width: 500px; /* Limit width of the paragraph */
   flex: 1; /* Allow paragraph to take remaining space */
 }
