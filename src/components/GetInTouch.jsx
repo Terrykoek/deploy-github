@@ -21,7 +21,7 @@ const GetInTouch = () => {
   };
 
   return (
-    <section id="contact">
+    <section id="get-in-touch">
       <h2>Get in Touch With Me</h2>
       <div className="contact-container">
         <div className="contact-details">
