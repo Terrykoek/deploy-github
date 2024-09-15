@@ -1,9 +1,7 @@
-# React + Vite
+# Welcome to my portfolio page! This page was build using React + Vite and deployed using github pages
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Below you will find a comprehensive collection of my professional experiences, projects and educations. Each position has been an important part of my career, and provided important tools to develop both personally and professionally. If you’re interested in references or learning more about my background, feel free to contact me directly.
 
-Currently, two official plugins are available:
+https://terrykoek.github.io/portfolio/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-#test test
+![alt text](src/assets/portfolio.jpeg)
