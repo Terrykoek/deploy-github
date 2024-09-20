@@ -9,7 +9,7 @@ import nlbImage from '../assets/NLB.jpeg'; // Adjust the path if necessary
 
 const experiences = [
   {
-    title: 'Research Engineer (Full-Stack Developer)',
+    title: 'Full-Stack Developer',
     company: 'Singapore-MIT Alliance for Research & Technology Centre (SMART)',
     dates: 'Apr 2023 - Present',
     description: [
